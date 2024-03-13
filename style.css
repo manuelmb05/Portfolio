@@ -1,0 +1,287 @@
+body {
+    font-family: 'Ojuju', sans-serif;
+}
+.navbar-toggler-icon {
+    background-color: #FFFCE9
+}
+/* Estilos para la barra de navegación */
+
+.navbar-nav .nav-link,
+.navbar-brand {
+    color: #FFFCE9 !important;
+    
+}
+
+
+//* Estilos para la sección de inicio */
+.home {
+    position: relative;
+}
+
+/* Estilos para la sección de introducción */
+.intro {
+    display: flex;
+    justify-content: flex-start; /* Alinear elementos a la izquierda */
+    align-items: center; /* Centrar verticalmente */
+    color: #FFFCE9 !important;
+    z-index: 1;
+}
+
+/* Estilos para la imagen "About Me" */
+.about-me-image {
+    width: 30%; /* Ajusta el tamaño de la imagen */
+    max-width: 30vw; /* Limita el tamaño máximo de la imagen */
+    border-radius: 30%; /* Ajusta el borde redondeado si es necesario */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilos para las imágenes dentro de la sección de introducción */
+.intro img {
+    width: 60%; /* Ajusta el tamaño de la imagen al 50% del ancho del contenedor */
+    max-width: 60vw; /* Limita el tamaño máximo de la imagen al 50% del ancho de la pantalla */
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Estilos para el título de la sección "About Me" */
+.about-me-section-title {
+    text-align: center; /* Alinea el título al centro */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilos para el contenido de la introducción */
+.intro-content {
+    display: flex; /* Cambio importante */
+    flex-direction: column; /* Cambio importante */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilos para el título dentro de la sección de introducción */
+.intro h1 {
+    margin-bottom: 7px; /* Para eliminar el espacio debajo del título */
+}
+
+/* Estilos para el encabezado */
+header {
+    position: relative;
+    z-index: 0; 
+}
+
+/* Estilos para los detalles de "About Me" */
+.about-me-details {
+    text-align: center;
+}
+/* Estilos para hacer más pequeña la imagen de "About Me" */
+.about-me-image {
+    width: 20%; /* Ajusta el tamaño de la imagen */
+    max-width: 20vw; /* Limita el tamaño máximo de la imagen */
+    border-radius: 20%; /* Ajusta el borde redondeado si es necesario */
+}
+
+/* Estilos para las imágenes dentro de la sección "About Me" */
+.about-me-section img {
+    max-width: 100%; /* Ajusta el ancho máximo para que se adapte al contenedor */
+    display: block; /* Para centrar la imagen horizontalmente */
+    margin: 0 auto; /* Para centrar la imagen horizontalmente */
+    margin-bottom: 20px; /* Agrega espacio inferior */
+}
+/* Estilos para hacer más pequeña la imagen de "About Me" */
+
+/* Estilos para las imágenes dentro de los detalles de "About Me" */
+.about-me-details img {
+    max-width: 30%; /* Hace que la imagen sea un poco más pequeña */
+    display: block; /* Centra la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Estilos para los iconos */
+.icons {
+    display: flex;
+    justify-content: space-around; /* Distribuye uniformemente los elementos a lo largo del contenedor */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea si no caben en la pantalla */
+}
+
+/* Estilos para las imágenes de los iconos */
+.icons img {
+    width: 100px; /* Tamaño de cada icono */
+    height: 100px; /* Tamaño de cada icono */
+    margin: 10px; /* Espacio entre los iconos */
+}
+
+/* Estilos para las transiciones de las imágenes de los iconos */
+.icons img {
+    transition: transform 0.5s ease;
+}
+
+/* Estilos para la animación de los iconos al pasar el mouse sobre ellos */
+.icons img:hover {
+    transform: translateY(20px); /* Cambia la distancia de caída aquí */
+}
+
+/* Estilos para las transiciones de las imágenes de la introducción */
+.intro img {
+    transition: transform 0.3s ease;
+}
+
+/* Estilos para la animación de las imágenes de la introducción al pasar el mouse sobre ellas */
+.intro img:hover {
+    transform: scale(1.5); /* Cambia el valor según sea necesario */
+}
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    /* Cambiamos la disposición de la sección de introducción para que la imagen esté arriba y el texto abajo */
+    .intro {
+        flex-direction: column; /* Cambio importante */
+        align-items: center; /* Centra horizontalmente */
+    }
+    .about-me-image {
+        margin-bottom: 0; /* Eliminamos el espacio inferior */
+    }
+}
+
+
+
+
+/* PROYECTICO */
+
+/* Estilos para la título de la sección de proyectos */
+.project-section-title {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin-bottom: 20px; /* Agrega un espacio inferior */
+}
+
+/* Estilos para la imagen del título de la sección de proyectos */
+.project-title-image {
+    width: 32%; /* Ancho de la imagen */
+    max-width: 32vw; /* Ancho máximo relativo al ancho de la ventana */
+    border-radius: 32%; /* Borde redondeado */
+}
+
+/* Estilos para la sección de proyectos */
+.project-section {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en una columna */
+    align-items: center;
+}
+
+/* Estilos para cada proyecto */
+.project {
+    margin-bottom: 30px;
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+/* Estilos para el título de cada proyecto */
+.project-title {
+    width: 90%; /* Ajustar el ancho al 90% del contenedor */
+    max-width: 800px; /* Ancho máximo */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+/* Estilos para la imagen de cada proyecto */
+.project-image {
+    width: 90%; /* Ajustar el ancho al 90% del contenedor */
+    max-width: 300px; /* Ancho máximo */
+    height: auto; /* Altura automática para mantener la proporción */
+    object-fit: cover; /* Ajusta la imagen para que cubra completamente el contenedor */
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Estilos para los detalles de cada proyecto */
+.project-details {
+    margin-top: 10px;
+}
+
+/* Animación al pasar el mouse sobre la imagen de cada proyecto */
+.project:hover .project-image {
+    transform: scale(1.1);
+}
+
+/* Media query para pantallas más pequeñas (celulares) */
+@media only screen and (max-width: 768px) {
+    /* Estilos específicos para pantallas de hasta 768px de ancho */
+    .project {
+        width: 90%; /* Ancho del proyecto al 90% del contenedor */
+    }
+
+    .project-image {
+        width: 100%; /* Ancho de la imagen al 100% del contenedor */
+        max-width: none; /* Quitar el ancho máximo */
+        margin-bottom: 20px; /* Espacio inferior entre las imágenes */
+    }
+}
+
+
+
+/*CONTAC ME */
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 250px; /* Aumenta el tamaño del logo */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.social-icons {
+    margin-bottom: 30px;
+}
+
+.social-icons a {
+    margin-right: 30px; /* Espacio entre los iconos */
+}
+
+.social-icons img {
+    width: 50px; /* Aumenta el tamaño de los iconos de redes sociales */
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center; /* Centra el texto */
+}
+
+.contact-details div {
+    margin-bottom: 20px;
+}
+
+.contact-details img {
+    width: 40px; /* Aumenta el tamaño de los iconos de correo y teléfono */
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
+
+.contact-details span {
+    color: #555; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+}
+
+/* Animación al pasar el mouse sobre el logo */
+.logo img:hover {
+    transform: rotate(360deg); /* Rotación de 360 grados */
+    transition: transform 0.5s ease; /* Transición suave */
+}
+.contact-details span {
+    color: #FFFCE9; /* Color blanco */
+}
+
+
+/* Media query para pantallas más pequeñas (celulares) */
+@media only screen and (max-width: 768px) {
+    /* Estilos específicos para pantallas de hasta 768px de ancho */
+    .about-me-image {
+        width: 70%; /* Ajustar el ancho de la imagen */
+        max-width: none; /* Quitar el ancho máximo */
+    }
+}

@@ -1,54 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ojuju&display=swap" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Manuel's Portfolio</title>
 </head>
-<body>
+<body style="background-color: #000000;">
 
-    <nav class="navbar navbar-expand-lg" style="background-color: #252224">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+<nav class="navbar navbar-expand-lg" style="background-color: #26222428;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#home-h">
             <img src="img/maz w2.png" height="50" alt="">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
-              </li>
-              
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home-h">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#project-section-title">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-me-section-title">About Me</a>
+                </li>
             </ul>
-          </div>
         </div>
-    </nav>
-
-    <div id="home-h" class="home">
-        <header>
-            
-            <video width="100%" autoplay="autoplay" loop="loop" muted>
-                <source src="img/videohero.mp4" type="video/mp4">
-                <!--not sure why I did this-->
-                <source src="img/videohero.mp4" type="video/ogg">
-                Your browser does not support HTML5 video.
-            </video>
-            
-        </header>            
     </div>
+</nav>
 
-    <p>hello, I'm Manuel. I hate strabwrry</p>
+<div id="home-h" class="home">
+    <header>
+        <video width="100%" autoplay="autoplay" loop="loop" muted>
+            <source src="img/videohero.mp4" type="video/mp4">
+            <!--not sure why I did this-->
+            <source src="img/videohero.mp4" type="video/ogg">
+            Your browser does not support HTML5 video.
+        </video>
+    </header>
+</div>
 
+<br>
+<br>
+<br><br>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<div class="about-me-section-title" id="about-me-section-title">
+  <img src="img/about me.png" alt="About Me Image" style="width: 30%; max-width: 30vw; border-radius: 30%;">
+</div>
+<br>
+<div class="about-me-section">
+    <div class="intro">
+        <img src="img/f1.png" alt="Manuel's Photo">
+        <div class="intro-content">
+            <h3>A passionate multimedia designer with experience in areas such as graphic design, motion, and other visual styles. Over the years, I have honed my skills in these disciplines and am dedicated to sharing ideas, inspiration, and resources related to multimedia design. Welcome to my space.</h3>
+        </div>
+    </div>
+</div>
+
+<div class="about-me-details">
+    <BR>
+    <BR>
+    <img src="img/SOTWARE.png" alt="Software Image">
+    <br>
+    <div class="icons">
+        <img src="img/p1.png" alt="Icon 1">
+        <img src="img/p2.png" alt="Icon 2">
+        <img src="img/p3.png" alt="Icon 3">
+        <img src="img/p4.png" alt="Icon 4">
+        <img src="img/p5.png" alt="Icon 5">
+        <img src="img/p6.png" alt="Icon 6">
+        <img src="img/p7.png" alt="Icon 7">
+        <img src="img/p8.png" alt="Icon 8">
+    </div>
+</div>
+<br>
+<br>
+<br>
+
+<!--proyectos-->
+<div class="project-section-title" id="project-section-title">
+  <img src="img/project.png" alt="Project Title Image" style="width: 32%; max-width: 32vw; border-radius: 32%;">
+</div>
+<br>
+<div class="project-section">
+  <div class="project">
+      <img src="img/game_xcol.png" alt="Project Title 1 Image" class="project-title">
+      <a href="https://medium.com/@manuel.mb/nostalgic-fusion-designing-retro-video-game-aesthetics-for-game-x-col-ca55aea251b3">
+          <img src="img/project1.png" alt="Project 1 Image" class="project-image">
+      </a>
+  </div>
+
+  <div class="project">
+      <img src="img/true_spotify.png" alt="Project Title 2 Image" class="project-title">
+      <a href="https://medium.com/@manuel.mb/true-ar-fashioning-virtual-realities-711e9f0c51ce">
+          <img src="img/project3.jpeg" alt="Project 2 Image" class="project-image">
+      </a>
+  </div>
+
+  <div class="project">
+      <img src="img/york_posters.png" alt="Project Title 3 Image" class="project-title">
+      <a href="https://medium.com/@manuel.mb/multimedia-design-for-conscious-travel-innovative-posters-in-york-region-transit-45015af086c1">
+          <img src="img/project2.png" alt="Project 3 Image" class="project-image">
+      </a>
+  </div>
+</div>
+
+<!--contacto-->
+
+<div class="contact-section">
+  <div class="logo">
+    <img src="img/maz w2.png" alt="Logo">
+  </div>
+  <div class="social-icons">
+    <a href="https://www.facebook.com/mannuel.bernal/"><img src="img/facebook.png" alt="Facebook"></a>
+    <a href="https://www.instagram.com/jejaune/?hl=en"><img src="img/instagram.png" alt="Instagram"></a>
+    <a href="https://www.linkedin.com/in/manuel-martinez-44480b296/"><img src="img/linkedin.png" alt="LinkedIn"></a>
+  </div>
+  
+  <div class="contact-details">
+    <div class="email">
+      <img src="img/email.png" alt="Email">
+      <span>manuel.mb@outlook.com</span>
+    </div>
+    <div class="phone">
+      <img src="img/phone.png" alt="Phone">
+      <span>+1 647 673 9908</span>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
