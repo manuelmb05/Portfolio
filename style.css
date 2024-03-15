@@ -320,3 +320,22 @@ header {
         max-width: none; /* Quitar el ancho máximo */
     }
 }
+
+
+  .info-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #FFFCE9 /* Cambia el color del texto a un gris oscuro */
+    background-color: #FFFCE9;
+    border: 2px solid #212121;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  /* Estilo Y2K para el botón al pasar el cursor sobre él */
+  .info-button:hover {
+    background-color: #212121;
+    color: #FFFCE9;
+  }
