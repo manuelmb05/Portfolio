@@ -11,6 +11,11 @@ body {
     color: #FFFCE9 !important;
     
 }
+.double-size {
+    width: 200%;
+    height: 200%;
+}
+
 
 
 //* Estilos para la sección de inicio */
